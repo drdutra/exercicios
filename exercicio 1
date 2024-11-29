@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{   int valor1 = 0, valor2 = 0, valor3 = 0;
+    printf("digitr o valor desejado: ");
+    scanf("%d", &valor1);
+    
+    printf("digitr o valor desejado: ");
+    scanf("%d", &valor2);
+    
+    printf("digitr o vaalor desejado: ");
+    scanf("%d", &valor3);
+    
+    if((valor1 != valor2) && (valor1 != valor3) && (valor2 != valor3))
+    {    if ((valor1 > valor2) && (valor1 > valor3))
+        printf("o maior valor e: %d", valor1);
+    else if ((valor2 > valor1) && (valor2 > valor3))
+        printf("o maior valor e: %d", valor2);
+    else
+        printf("o maior valor e: %d", valor3);
+    }
+    else
+         printf("Ha valores iguais. não foi possivel executar");
+    return 0;
+}
