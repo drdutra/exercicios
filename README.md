@@ -1,2 +1,2 @@
 # exercicios
-condigos criados na aula de programação para jogos digitais
+condigos criados no decorre da faculdade de jogos digitais
